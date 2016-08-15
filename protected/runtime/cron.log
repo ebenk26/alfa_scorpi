@@ -1,0 +1,183 @@
+2016/01/08 14:13:07 [error] [exception.CException] exception 'CException' with message 'Property "Inbox.status" is not defined.' in /usr/local/www/apache24/data/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(161): CComponent->__set('status', 0)
+#1 /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php(113): CActiveRecord->__set('status', 0)
+#2 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(71): CronCommand->run(Array)
+#3 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#5 /usr/local/www/apache24/data/alfa_scorpi/cron.php(14): CApplication->run()
+#6 {main}
+---
+2016/01/08 14:18:25 [error] [exception.CException] exception 'CException' with message 'Property "Inbox.status" is not defined.' in /usr/local/www/apache24/data/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(161): CComponent->__set('status', 0)
+#1 /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php(113): CActiveRecord->__set('status', 0)
+#2 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(71): CronCommand->run(Array)
+#3 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#5 /usr/local/www/apache24/data/alfa_scorpi/cron.php(14): CApplication->run()
+#6 {main}
+---
+2016/01/08 14:19:47 [error] [exception.CException] exception 'CException' with message 'Property "Inbox.status" is not defined.' in /usr/local/www/apache24/data/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(161): CComponent->__set('status', 0)
+#1 /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php(113): CActiveRecord->__set('status', 0)
+#2 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(71): CronCommand->run(Array)
+#3 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#5 /usr/local/www/apache24/data/alfa_scorpi/cron.php(14): CApplication->run()
+#6 {main}
+---
+2016/01/08 14:37:55 [error] [php] include(SendemailCommand.php): failed to open stream: No such file or directory (/usr/local/www/apache24/data/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(170): spl_autoload_call()
+#1 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#2 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#4 /usr/local/www/apache24/data/alfa_scorpi/sendemail.php(14): CConsoleApplication->run()
+
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:38:41 [error] [php] require(PHPMailer/PHPMailerAutoload.php): failed to open stream: No such file or directory (/usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php:7)
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#2 /usr/local/www/apache24/data/alfa_scorpi/sendemail.php(14): CConsoleApplication->run()
+
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (7)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (7)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:04 [error] [php] require(/PHPMailer/PHPMailerAutoload.php): failed to open stream: No such file or directory (/usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php:7)
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#2 /usr/local/www/apache24/data/alfa_scorpi/sendemail.php(14): CConsoleApplication->run()
+
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (7)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (7)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:01:01 [error] [exception.CException] exception 'CException' with message 'Property "Inbox.region" is not defined.' in /usr/local/www/apache24/data/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('region')
+#1 /usr/local/www/apache24/data/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('region')
+#2 /usr/local/www/apache24/data/yii/framework/validators/CValidator.php(201): CStringValidator->validateAttribute(Object(Inbox), 'region')
+#3 /usr/local/www/apache24/data/yii/framework/base/CModel.php(159): CValidator->validate(Object(Inbox), NULL)
+#4 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(808): CModel->validate(NULL)
+#5 /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php(117): CActiveRecord->save()
+#6 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(71): CronCommand->run(Array)
+#7 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#9 /usr/local/www/apache24/data/alfa_scorpi/cron.php(14): CApplication->run()
+#10 {main}
+---
+2016/01/08 15:02:01 [error] [exception.CException] exception 'CException' with message 'Property "Inbox.region" is not defined.' in /usr/local/www/apache24/data/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('region')
+#1 /usr/local/www/apache24/data/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('region')
+#2 /usr/local/www/apache24/data/yii/framework/validators/CValidator.php(201): CStringValidator->validateAttribute(Object(Inbox), 'region')
+#3 /usr/local/www/apache24/data/yii/framework/base/CModel.php(159): CValidator->validate(Object(Inbox), NULL)
+#4 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(808): CModel->validate(NULL)
+#5 /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php(117): CActiveRecord->save()
+#6 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(71): CronCommand->run(Array)
+#7 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#9 /usr/local/www/apache24/data/alfa_scorpi/cron.php(14): CApplication->run()
+#10 {main}
+---
+2016/01/08 15:03:00 [error] [exception.CException] exception 'CException' with message 'Property "Inbox.region" is not defined.' in /usr/local/www/apache24/data/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('region')
+#1 /usr/local/www/apache24/data/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('region')
+#2 /usr/local/www/apache24/data/yii/framework/validators/CValidator.php(201): CStringValidator->validateAttribute(Object(Inbox), 'region')
+#3 /usr/local/www/apache24/data/yii/framework/base/CModel.php(159): CValidator->validate(Object(Inbox), NULL)
+#4 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(808): CModel->validate(NULL)
+#5 /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php(117): CActiveRecord->save()
+#6 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(71): CronCommand->run(Array)
+#7 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#9 /usr/local/www/apache24/data/alfa_scorpi/cron.php(14): CApplication->run()
+#10 {main}
+---
+2016/01/08 15:04:00 [error] [exception.CException] exception 'CException' with message 'Property "Inbox.region" is not defined.' in /usr/local/www/apache24/data/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('region')
+#1 /usr/local/www/apache24/data/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('region')
+#2 /usr/local/www/apache24/data/yii/framework/validators/CValidator.php(201): CStringValidator->validateAttribute(Object(Inbox), 'region')
+#3 /usr/local/www/apache24/data/yii/framework/base/CModel.php(159): CValidator->validate(Object(Inbox), NULL)
+#4 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(808): CModel->validate(NULL)
+#5 /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php(117): CActiveRecord->save()
+#6 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(71): CronCommand->run(Array)
+#7 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#9 /usr/local/www/apache24/data/alfa_scorpi/cron.php(14): CApplication->run()
+#10 {main}
+---
+2016/01/08 15:05:01 [error] [exception.CException] exception 'CException' with message 'Property "Inbox.region" is not defined.' in /usr/local/www/apache24/data/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('region')
+#1 /usr/local/www/apache24/data/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('region')
+#2 /usr/local/www/apache24/data/yii/framework/validators/CValidator.php(201): CStringValidator->validateAttribute(Object(Inbox), 'region')
+#3 /usr/local/www/apache24/data/yii/framework/base/CModel.php(159): CValidator->validate(Object(Inbox), NULL)
+#4 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(808): CModel->validate(NULL)
+#5 /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php(117): CActiveRecord->save()
+#6 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(71): CronCommand->run(Array)
+#7 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#9 /usr/local/www/apache24/data/alfa_scorpi/cron.php(14): CApplication->run()
+#10 {main}
+---
+2016/01/08 15:06:01 [error] [exception.CException] exception 'CException' with message 'Property "Inbox.region" is not defined.' in /usr/local/www/apache24/data/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('region')
+#1 /usr/local/www/apache24/data/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('region')
+#2 /usr/local/www/apache24/data/yii/framework/validators/CValidator.php(201): CStringValidator->validateAttribute(Object(Inbox), 'region')
+#3 /usr/local/www/apache24/data/yii/framework/base/CModel.php(159): CValidator->validate(Object(Inbox), NULL)
+#4 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(808): CModel->validate(NULL)
+#5 /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php(117): CActiveRecord->save()
+#6 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(71): CronCommand->run(Array)
+#7 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#9 /usr/local/www/apache24/data/alfa_scorpi/cron.php(14): CApplication->run()
+#10 {main}
+---
+2016/01/08 15:07:01 [error] [exception.CException] exception 'CException' with message 'Property "Inbox.region" is not defined.' in /usr/local/www/apache24/data/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('region')
+#1 /usr/local/www/apache24/data/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('region')
+#2 /usr/local/www/apache24/data/yii/framework/validators/CValidator.php(201): CStringValidator->validateAttribute(Object(Inbox), 'region')
+#3 /usr/local/www/apache24/data/yii/framework/base/CModel.php(159): CValidator->validate(Object(Inbox), NULL)
+#4 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(808): CModel->validate(NULL)
+#5 /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php(117): CActiveRecord->save()
+#6 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(71): CronCommand->run(Array)
+#7 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#9 /usr/local/www/apache24/data/alfa_scorpi/cron.php(14): CApplication->run()
+#10 {main}
+---
+2016/01/08 15:08:01 [error] [exception.CException] exception 'CException' with message 'Property "Inbox.region" is not defined.' in /usr/local/www/apache24/data/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('region')
+#1 /usr/local/www/apache24/data/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('region')
+#2 /usr/local/www/apache24/data/yii/framework/validators/CValidator.php(201): CStringValidator->validateAttribute(Object(Inbox), 'region')
+#3 /usr/local/www/apache24/data/yii/framework/base/CModel.php(159): CValidator->validate(Object(Inbox), NULL)
+#4 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(808): CModel->validate(NULL)
+#5 /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php(117): CActiveRecord->save()
+#6 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(71): CronCommand->run(Array)
+#7 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#9 /usr/local/www/apache24/data/alfa_scorpi/cron.php(14): CApplication->run()
+#10 {main}
+---
+2016/01/08 15:09:00 [error] [exception.CException] exception 'CException' with message 'Property "Inbox.region" is not defined.' in /usr/local/www/apache24/data/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('region')
+#1 /usr/local/www/apache24/data/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('region')
+#2 /usr/local/www/apache24/data/yii/framework/validators/CValidator.php(201): CStringValidator->validateAttribute(Object(Inbox), 'region')
+#3 /usr/local/www/apache24/data/yii/framework/base/CModel.php(159): CValidator->validate(Object(Inbox), NULL)
+#4 /usr/local/www/apache24/data/yii/framework/db/ar/CActiveRecord.php(808): CModel->validate(NULL)
+#5 /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php(117): CActiveRecord->save()
+#6 /usr/local/www/apache24/data/yii/framework/console/CConsoleCommandRunner.php(71): CronCommand->run(Array)
+#7 /usr/local/www/apache24/data/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /usr/local/www/apache24/data/yii/framework/base/CApplication.php(184): CConsoleApplication->processRequest()
+#9 /usr/local/www/apache24/data/alfa_scorpi/cron.php(14): CApplication->run()
+#10 {main}
+---

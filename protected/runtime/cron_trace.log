@@ -1,0 +1,2024 @@
+2016/01/08 14:10:24 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:10:47 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'kahfi@nadyne.com') AND (password = 'ff334d44efcf38f0e344332b6a22868f') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452227275'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.CModule] Loading "coreMessages" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (113)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:13:07 [trace] [system.CModule] Loading "errorHandler" application component
+2016/01/08 14:18:25 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'kahfi@nadyne.com') AND (password = 'ff334d44efcf38f0e344332b6a22868f') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452227275'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.CModule] Loading "coreMessages" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (113)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:18:25 [trace] [system.CModule] Loading "errorHandler" application component
+2016/01/08 14:19:46 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:46 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:46 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:46 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'ebenk.rzq@gmail.com') AND (password = '25d55ad283aa400af464c76d713c07ad') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:46 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452237494'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:46 [trace] [system.db.ar.CActiveRecord] Prospect.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:46 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `prospect` (`nama`, `alamat`, `ttl`, `pekerjaan`, `region_id`, `user_id`, `udate`, `from_email`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:47 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'kahfi@nadyne.com') AND (password = 'ff334d44efcf38f0e344332b6a22868f') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:47 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452227275'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:47 [trace] [system.CModule] Loading "coreMessages" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (113)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 14:19:47 [trace] [system.CModule] Loading "errorHandler" application component
+2016/01/08 14:30:18 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:32:02 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:34:49 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:35:26 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Region.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `region`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `region`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `region` `t` WHERE `t`.`id`=1 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Leasing.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `leasing`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `leasing`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE region_id = 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.CModule] Loading "request" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (72)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] SendMail.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (92)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `send_mail` (`uid_email`, `leasing_id`, `prospect_id`, `email`, `cc_email`, `message`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (92)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Leasing.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (94)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE `t`.`id`=1 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (94)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Leasing.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (96)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Leasing.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (96)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `leasing` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `email`=:yp3, `region_id`=:yp4, `token`=:yp5, `secretkey`=:yp6, `created_by`=:yp7, `updated_by`=:yp8, `created_at`=:yp9, `updated_at`=:yp10, `deleted_at`=:yp11 WHERE `leasing`.`id`=1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (96)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] SendMail.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (92)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `send_mail` (`uid_email`, `leasing_id`, `prospect_id`, `email`, `cc_email`, `message`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (92)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Leasing.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (94)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE `t`.`id`=2 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (94)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Leasing.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (96)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Leasing.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (96)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `leasing` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `email`=:yp3, `region_id`=:yp4, `token`=:yp5, `secretkey`=:yp6, `created_by`=:yp7, `updated_by`=:yp8, `created_at`=:yp9, `updated_at`=:yp10, `deleted_at`=:yp11 WHERE `leasing`.`id`=2
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (96)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] SendMail.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (92)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `send_mail` (`uid_email`, `leasing_id`, `prospect_id`, `email`, `cc_email`, `message`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (92)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Leasing.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (94)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE `t`.`id`=3 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (94)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Leasing.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (96)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Leasing.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (96)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `leasing` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `email`=:yp3, `region_id`=:yp4, `token`=:yp5, `secretkey`=:yp6, `created_by`=:yp7, `updated_by`=:yp8, `created_at`=:yp9, `updated_at`=:yp10, `deleted_at`=:yp11 WHERE `leasing`.`id`=3
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (96)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Prospect.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (27)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE `t`.`id`=2 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (27)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Prospect.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (31)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.ar.CActiveRecord] Prospect.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (31)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:36:50 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `prospect` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `ttl`=:yp3, `pekerjaan`=:yp4, `case_number`=:yp5, `region_id`=:yp6, `user_id`=:yp7, `from_email`=:yp8, `udate`=:yp9, `status`=:yp10, `bid_from_time`=:yp11, `created_by`=:yp12, `updated_by`=:yp13, `created_at`=:yp14, `updated_at`=NOW(), `deleted_at`=:yp15 WHERE `prospect`.`id`=2
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (31)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 14:37:55 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:37:55 [trace] [system.CModule] Loading "errorHandler" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:38:41 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:38:41 [trace] [system.CModule] Loading "errorHandler" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (7)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (7)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:04 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:04 [trace] [system.CModule] Loading "errorHandler" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (7)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (7)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] SendMail.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE `t`.`id`=4 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] SendMail.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] SendMail.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `send_mail` SET `id`=:yp0, `uid_email`=:yp1, `leasing_id`=:yp2, `prospect_id`=:yp3, `email`=:yp4, `cc_email`=:yp5, `status`=:yp6, `bidding_token`=:yp7, `bidding_token_time`=:yp8, `bidding_time`=:yp9, `message`=:yp10, `time_up`=:yp11, `created_by`=:yp12, `updated_by`=:yp13, `created_at`=:yp14, `updated_at`=NOW(), `deleted_at`=:yp15 WHERE `send_mail`.`id`=4
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] Prospect.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE `t`.`id`=2 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] Prospect.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] Prospect.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `prospect` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `ttl`=:yp3, `pekerjaan`=:yp4, `case_number`=:yp5, `region_id`=:yp6, `user_id`=:yp7, `from_email`=:yp8, `udate`=:yp9, `status`=:yp10, `bid_from_time`=NOW(), `created_by`=:yp11, `updated_by`=:yp12, `created_at`=:yp13, `updated_at`=NOW(), `deleted_at`=:yp14 WHERE `prospect`.`id`=2
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] SendMail.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE `t`.`id`=5 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] SendMail.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] SendMail.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `send_mail` SET `id`=:yp0, `uid_email`=:yp1, `leasing_id`=:yp2, `prospect_id`=:yp3, `email`=:yp4, `cc_email`=:yp5, `status`=:yp6, `bidding_token`=:yp7, `bidding_token_time`=:yp8, `bidding_time`=:yp9, `message`=:yp10, `time_up`=:yp11, `created_by`=:yp12, `updated_by`=:yp13, `created_at`=:yp14, `updated_at`=NOW(), `deleted_at`=:yp15 WHERE `send_mail`.`id`=5
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] Prospect.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE `t`.`id`=2 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] Prospect.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.ar.CActiveRecord] Prospect.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:43 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `prospect` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `ttl`=:yp3, `pekerjaan`=:yp4, `case_number`=:yp5, `region_id`=:yp6, `user_id`=:yp7, `from_email`=:yp8, `udate`=:yp9, `status`=:yp10, `bid_from_time`=NOW(), `created_by`=:yp11, `updated_by`=:yp12, `created_at`=:yp13, `updated_at`=NOW(), `deleted_at`=:yp14 WHERE `prospect`.`id`=2
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:44 [trace] [system.db.ar.CActiveRecord] SendMail.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE `t`.`id`=6 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:44 [trace] [system.db.ar.CActiveRecord] SendMail.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:44 [trace] [system.db.ar.CActiveRecord] SendMail.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:44 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `send_mail` SET `id`=:yp0, `uid_email`=:yp1, `leasing_id`=:yp2, `prospect_id`=:yp3, `email`=:yp4, `cc_email`=:yp5, `status`=:yp6, `bidding_token`=:yp7, `bidding_token_time`=:yp8, `bidding_time`=:yp9, `message`=:yp10, `time_up`=:yp11, `created_by`=:yp12, `updated_by`=:yp13, `created_at`=:yp14, `updated_at`=NOW(), `deleted_at`=:yp15 WHERE `send_mail`.`id`=6
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:44 [trace] [system.db.ar.CActiveRecord] Prospect.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE `t`.`id`=2 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:44 [trace] [system.db.ar.CActiveRecord] Prospect.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:44 [trace] [system.db.ar.CActiveRecord] Prospect.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 14:39:44 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `prospect` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `ttl`=:yp3, `pekerjaan`=:yp4, `case_number`=:yp5, `region_id`=:yp6, `user_id`=:yp7, `from_email`=:yp8, `udate`=:yp9, `status`=:yp10, `bid_from_time`=NOW(), `created_by`=:yp11, `updated_by`=:yp12, `created_at`=:yp13, `updated_at`=NOW(), `deleted_at`=:yp14 WHERE `prospect`.`id`=2
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:01:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:01:00 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:01:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:01:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:01:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:01:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:01:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:01:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:01:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:01:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:01:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:01:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:01:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:01:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:01:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:01:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:01:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'fuji@nadyne.com') AND (password = '25d55ad283aa400af464c76d713c07ad') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452239195'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.ar.CActiveRecord] Prospect.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `prospect` (`nama`, `alamat`, `ttl`, `pekerjaan`, `region_id`, `user_id`, `udate`, `from_email`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'mawan@nadyne.com') AND (password = '39dc467a2d9530f922fb23d2a190c557') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452237665'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.CModule] Loading "coreMessages" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:01:01 [trace] [system.CModule] Loading "errorHandler" application component
+2016/01/08 15:02:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:02:00 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:02:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:02:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.ar.CActiveRecord] Region.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `region`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `region`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `region` `t` WHERE `t`.`id`=2 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.ar.CActiveRecord] Leasing.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `leasing`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `leasing`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE region_id = 2
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.ar.CActiveRecord] SendMail.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `send_mail` (`uid_email`, `leasing_id`, `prospect_id`, `email`, `cc_email`, `message`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:01 [trace] [system.db.ar.CActiveRecord] Leasing.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE `t`.`id`=4 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:01 [trace] [system.db.ar.CActiveRecord] Leasing.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:01 [trace] [system.db.ar.CActiveRecord] Leasing.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `leasing` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `email`=:yp3, `region_id`=:yp4, `token`=:yp5, `secretkey`=:yp6, `created_by`=:yp7, `updated_by`=:yp8, `created_at`=:yp9, `updated_at`=:yp10, `deleted_at`=:yp11 WHERE `leasing`.`id`=4
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:01 [trace] [system.db.ar.CActiveRecord] Prospect.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (27)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE `t`.`id`=3 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (27)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:01 [trace] [system.db.ar.CActiveRecord] Prospect.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (31)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:01 [trace] [system.db.ar.CActiveRecord] Prospect.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (31)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `prospect` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `ttl`=:yp3, `pekerjaan`=:yp4, `case_number`=:yp5, `region_id`=:yp6, `user_id`=:yp7, `from_email`=:yp8, `udate`=:yp9, `status`=:yp10, `bid_from_time`=:yp11, `created_by`=:yp12, `updated_by`=:yp13, `created_at`=:yp14, `updated_at`=NOW(), `deleted_at`=:yp15 WHERE `prospect`.`id`=3
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (31)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:02:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'fuji@nadyne.com') AND (password = '25d55ad283aa400af464c76d713c07ad') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452239195'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'mawan@nadyne.com') AND (password = '39dc467a2d9530f922fb23d2a190c557') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452237665'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.CModule] Loading "coreMessages" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:02:01 [trace] [system.CModule] Loading "errorHandler" application component
+2016/01/08 15:03:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:03:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:03:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:03:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'fuji@nadyne.com') AND (password = '25d55ad283aa400af464c76d713c07ad') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452239195'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'mawan@nadyne.com') AND (password = '39dc467a2d9530f922fb23d2a190c557') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452237665'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.CModule] Loading "coreMessages" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:03:00 [trace] [system.CModule] Loading "errorHandler" application component
+2016/01/08 15:03:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.ar.CActiveRecord] SendMail.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE `t`.`id`=7 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.ar.CActiveRecord] SendMail.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.ar.CActiveRecord] SendMail.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `send_mail` SET `id`=:yp0, `uid_email`=:yp1, `leasing_id`=:yp2, `prospect_id`=:yp3, `email`=:yp4, `cc_email`=:yp5, `status`=:yp6, `bidding_token`=:yp7, `bidding_token_time`=:yp8, `bidding_time`=:yp9, `message`=:yp10, `time_up`=:yp11, `created_by`=:yp12, `updated_by`=:yp13, `created_at`=:yp14, `updated_at`=NOW(), `deleted_at`=:yp15 WHERE `send_mail`.`id`=7
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.ar.CActiveRecord] Prospect.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE `t`.`id`=3 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.ar.CActiveRecord] Prospect.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.ar.CActiveRecord] Prospect.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:03:00 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `prospect` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `ttl`=:yp3, `pekerjaan`=:yp4, `case_number`=:yp5, `region_id`=:yp6, `user_id`=:yp7, `from_email`=:yp8, `udate`=:yp9, `status`=:yp10, `bid_from_time`=NOW(), `created_by`=:yp11, `updated_by`=:yp12, `created_at`=:yp13, `updated_at`=NOW(), `deleted_at`=:yp14 WHERE `prospect`.`id`=3
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:04:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:04:00 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:04:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:04:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:04:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:04:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:04:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'kahfi@nadyne.com') AND (password = '25d55ad283aa400af464c76d713c07ad') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240195'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.ar.CActiveRecord] Prospect.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `prospect` (`nama`, `alamat`, `ttl`, `pekerjaan`, `region_id`, `user_id`, `udate`, `from_email`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'rizky@nadyne.com') AND (password = 'dc500538f0ed294308fd1abfe64a0db1') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240180'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.CModule] Loading "coreMessages" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:04:00 [trace] [system.CModule] Loading "errorHandler" application component
+2016/01/08 15:05:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:05:00 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:05:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:05:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'kahfi@nadyne.com') AND (password = '25d55ad283aa400af464c76d713c07ad') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240195'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'rizky@nadyne.com') AND (password = 'dc500538f0ed294308fd1abfe64a0db1') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240180'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.CModule] Loading "coreMessages" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:05:01 [trace] [system.CModule] Loading "errorHandler" application component
+2016/01/08 15:05:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.ar.CActiveRecord] Region.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `region`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `region`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `region` `t` WHERE `t`.`id`=1 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.ar.CActiveRecord] Leasing.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `leasing`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `leasing`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE region_id = 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.ar.CActiveRecord] SendMail.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:00 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `send_mail` (`uid_email`, `leasing_id`, `prospect_id`, `email`, `cc_email`, `message`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Leasing.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE `t`.`id`=1 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Leasing.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Leasing.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `leasing` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `email`=:yp3, `region_id`=:yp4, `token`=:yp5, `secretkey`=:yp6, `created_by`=:yp7, `updated_by`=:yp8, `created_at`=:yp9, `updated_at`=:yp10, `deleted_at`=:yp11 WHERE `leasing`.`id`=1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] SendMail.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `send_mail` (`uid_email`, `leasing_id`, `prospect_id`, `email`, `cc_email`, `message`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Leasing.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE `t`.`id`=2 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Leasing.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Leasing.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `leasing` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `email`=:yp3, `region_id`=:yp4, `token`=:yp5, `secretkey`=:yp6, `created_by`=:yp7, `updated_by`=:yp8, `created_at`=:yp9, `updated_at`=:yp10, `deleted_at`=:yp11 WHERE `leasing`.`id`=2
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] SendMail.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `send_mail` (`uid_email`, `leasing_id`, `prospect_id`, `email`, `cc_email`, `message`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Leasing.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE `t`.`id`=3 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Leasing.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Leasing.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `leasing` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `email`=:yp3, `region_id`=:yp4, `token`=:yp5, `secretkey`=:yp6, `created_by`=:yp7, `updated_by`=:yp8, `created_at`=:yp9, `updated_at`=:yp10, `deleted_at`=:yp11 WHERE `leasing`.`id`=3
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Prospect.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (27)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE `t`.`id`=4 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (27)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Prospect.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (31)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.ar.CActiveRecord] Prospect.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (31)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:05:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `prospect` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `ttl`=:yp3, `pekerjaan`=:yp4, `case_number`=:yp5, `region_id`=:yp6, `user_id`=:yp7, `from_email`=:yp8, `udate`=:yp9, `status`=:yp10, `bid_from_time`=:yp11, `created_by`=:yp12, `updated_by`=:yp13, `created_at`=:yp14, `updated_at`=NOW(), `deleted_at`=:yp15 WHERE `prospect`.`id`=4
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (31)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:06:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:06:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:06:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:06:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'kahfi@nadyne.com') AND (password = '25d55ad283aa400af464c76d713c07ad') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240195'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'rizky@nadyne.com') AND (password = 'dc500538f0ed294308fd1abfe64a0db1') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240180'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:00 [trace] [system.CModule] Loading "coreMessages" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:06:01 [trace] [system.CModule] Loading "errorHandler" application component
+2016/01/08 15:06:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.ar.CActiveRecord] SendMail.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE `t`.`id`=8 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.ar.CActiveRecord] SendMail.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.ar.CActiveRecord] SendMail.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `send_mail` SET `id`=:yp0, `uid_email`=:yp1, `leasing_id`=:yp2, `prospect_id`=:yp3, `email`=:yp4, `cc_email`=:yp5, `status`=:yp6, `bidding_token`=:yp7, `bidding_token_time`=:yp8, `bidding_time`=:yp9, `message`=:yp10, `time_up`=:yp11, `created_by`=:yp12, `updated_by`=:yp13, `created_at`=:yp14, `updated_at`=NOW(), `deleted_at`=:yp15 WHERE `send_mail`.`id`=8
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.ar.CActiveRecord] Prospect.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE `t`.`id`=4 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.ar.CActiveRecord] Prospect.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.ar.CActiveRecord] Prospect.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:00 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `prospect` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `ttl`=:yp3, `pekerjaan`=:yp4, `case_number`=:yp5, `region_id`=:yp6, `user_id`=:yp7, `from_email`=:yp8, `udate`=:yp9, `status`=:yp10, `bid_from_time`=NOW(), `created_by`=:yp11, `updated_by`=:yp12, `created_at`=:yp13, `updated_at`=NOW(), `deleted_at`=:yp14 WHERE `prospect`.`id`=4
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.ar.CActiveRecord] SendMail.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE `t`.`id`=9 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.ar.CActiveRecord] SendMail.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.ar.CActiveRecord] SendMail.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `send_mail` SET `id`=:yp0, `uid_email`=:yp1, `leasing_id`=:yp2, `prospect_id`=:yp3, `email`=:yp4, `cc_email`=:yp5, `status`=:yp6, `bidding_token`=:yp7, `bidding_token_time`=:yp8, `bidding_time`=:yp9, `message`=:yp10, `time_up`=:yp11, `created_by`=:yp12, `updated_by`=:yp13, `created_at`=:yp14, `updated_at`=NOW(), `deleted_at`=:yp15 WHERE `send_mail`.`id`=9
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.ar.CActiveRecord] Prospect.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE `t`.`id`=4 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.ar.CActiveRecord] Prospect.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.ar.CActiveRecord] Prospect.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `prospect` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `ttl`=:yp3, `pekerjaan`=:yp4, `case_number`=:yp5, `region_id`=:yp6, `user_id`=:yp7, `from_email`=:yp8, `udate`=:yp9, `status`=:yp10, `bid_from_time`=NOW(), `created_by`=:yp11, `updated_by`=:yp12, `created_at`=:yp13, `updated_at`=NOW(), `deleted_at`=:yp14 WHERE `prospect`.`id`=4
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.ar.CActiveRecord] SendMail.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE `t`.`id`=10 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (22)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.ar.CActiveRecord] SendMail.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.ar.CActiveRecord] SendMail.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `send_mail` SET `id`=:yp0, `uid_email`=:yp1, `leasing_id`=:yp2, `prospect_id`=:yp3, `email`=:yp4, `cc_email`=:yp5, `status`=:yp6, `bidding_token`=:yp7, `bidding_token_time`=:yp8, `bidding_time`=:yp9, `message`=:yp10, `time_up`=:yp11, `created_by`=:yp12, `updated_by`=:yp13, `created_at`=:yp14, `updated_at`=NOW(), `deleted_at`=:yp15 WHERE `send_mail`.`id`=10
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (26)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.ar.CActiveRecord] Prospect.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE `t`.`id`=4 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (28)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.ar.CActiveRecord] Prospect.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.ar.CActiveRecord] Prospect.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:06:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `prospect` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `ttl`=:yp3, `pekerjaan`=:yp4, `case_number`=:yp5, `region_id`=:yp6, `user_id`=:yp7, `from_email`=:yp8, `udate`=:yp9, `status`=:yp10, `bid_from_time`=NOW(), `created_by`=:yp11, `updated_by`=:yp12, `created_at`=:yp13, `updated_at`=NOW(), `deleted_at`=:yp14 WHERE `prospect`.`id`=4
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (33)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:07:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:07:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:07:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:07:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:07:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:07:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:07:00 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:07:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:07:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:07:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:07:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:07:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:00 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'kahfi@nadyne.com') AND (password = '25d55ad283aa400af464c76d713c07ad') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240195'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'rizky@nadyne.com') AND (password = 'dc500538f0ed294308fd1abfe64a0db1') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240180'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.CModule] Loading "coreMessages" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:07:01 [trace] [system.CModule] Loading "errorHandler" application component
+2016/01/08 15:08:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:08:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:08:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:08:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:08:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:08:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:08:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:08:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:08:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:08:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:08:00 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:08:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:08:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:08:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:08:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:08:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:08:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:00 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'kahfi@nadyne.com') AND (password = '25d55ad283aa400af464c76d713c07ad') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240195'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'rizky@nadyne.com') AND (password = 'dc500538f0ed294308fd1abfe64a0db1') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240180'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.CModule] Loading "coreMessages" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:08:01 [trace] [system.CModule] Loading "errorHandler" application component
+2016/01/08 15:09:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:09:00 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:09:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:09:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:09:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:09:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:09:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'kahfi@nadyne.com') AND (password = '25d55ad283aa400af464c76d713c07ad') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240195'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'rizky@nadyne.com') AND (password = 'dc500538f0ed294308fd1abfe64a0db1') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240180'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `inbox`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (73)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.CModule] Loading "coreMessages" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:09:00 [trace] [system.CModule] Loading "errorHandler" application component
+2016/01/08 15:10:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:10:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:10:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:10:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:10:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:10:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:10:01 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:10:01 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:10:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:11:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:11:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:11:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:11:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:11:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:11:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:11:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:11:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:11:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:11:00 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:11:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:11:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:11:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:11:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:11:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:11:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:01 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:01 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:01 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'kahfi@nadyne.com') AND (password = '25d55ad283aa400af464c76d713c07ad') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:01 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240640'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:01 [trace] [system.db.ar.CActiveRecord] Prospect.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:11:01 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `prospect` (`nama`, `alamat`, `ttl`, `pekerjaan`, `region_id`, `user_id`, `udate`, `from_email`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (117)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:12:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:12:00 [trace] [system.db.ar.CActiveRecord] SendMail.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:12:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `send_mail` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/SendemailCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/sendemail.php (14)
+2016/01/08 15:12:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] User.find()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:12:01 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE (email = 'kahfi@nadyne.com') AND (password = '25d55ad283aa400af464c76d713c07ad') LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (47)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE udate = '1452240640'
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/CronCommand.php (52)
+in /usr/local/www/apache24/data/alfa_scorpi/cron.php (14)
+2016/01/08 15:12:00 [trace] [system.CModule] Loading "log" application component
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.ar.CActiveRecord] Prospect.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.CModule] Loading "db" application component
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `prospect`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE status = 0
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (9)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `send_mail`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (11)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.ar.CActiveRecord] Region.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `region`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `region`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `region` `t` WHERE `t`.`id`=1 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (23)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.ar.CActiveRecord] Leasing.findAll()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `leasing`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `leasing`
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE region_id = 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (42)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.ar.CActiveRecord] SendMail.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:00 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `send_mail` (`uid_email`, `leasing_id`, `prospect_id`, `email`, `cc_email`, `message`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Leasing.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE `t`.`id`=1 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Leasing.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Leasing.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `leasing` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `email`=:yp3, `region_id`=:yp4, `token`=:yp5, `secretkey`=:yp6, `created_by`=:yp7, `updated_by`=:yp8, `created_at`=:yp9, `updated_at`=:yp10, `deleted_at`=:yp11 WHERE `leasing`.`id`=1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] SendMail.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `send_mail` (`uid_email`, `leasing_id`, `prospect_id`, `email`, `cc_email`, `message`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Leasing.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE `t`.`id`=2 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Leasing.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Leasing.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `leasing` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `email`=:yp3, `region_id`=:yp4, `token`=:yp5, `secretkey`=:yp6, `created_by`=:yp7, `updated_by`=:yp8, `created_at`=:yp9, `updated_at`=:yp10, `deleted_at`=:yp11 WHERE `leasing`.`id`=2
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] SendMail.insert()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `send_mail` (`uid_email`, `leasing_id`, `prospect_id`, `email`, `cc_email`, `message`, `status`, `created_by`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, NOW(), NOW())
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (93)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Leasing.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `leasing` `t` WHERE `t`.`id`=3 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (95)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Leasing.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Leasing.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `leasing` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `email`=:yp3, `region_id`=:yp4, `token`=:yp5, `secretkey`=:yp6, `created_by`=:yp7, `updated_by`=:yp8, `created_at`=:yp9, `updated_at`=:yp10, `deleted_at`=:yp11 WHERE `leasing`.`id`=3
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (97)
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (25)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Prospect.findByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (27)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `prospect` `t` WHERE `t`.`id`=5 LIMIT 1
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (27)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Prospect.update()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (31)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.ar.CActiveRecord] Prospect.updateByPk()
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (31)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
+2016/01/08 15:12:01 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `prospect` SET `id`=:yp0, `nama`=:yp1, `alamat`=:yp2, `ttl`=:yp3, `pekerjaan`=:yp4, `case_number`=:yp5, `region_id`=:yp6, `user_id`=:yp7, `from_email`=:yp8, `udate`=:yp9, `status`=:yp10, `bid_from_time`=:yp11, `created_by`=:yp12, `updated_by`=:yp13, `created_at`=:yp14, `updated_at`=NOW(), `deleted_at`=:yp15 WHERE `prospect`.`id`=5
+in /usr/local/www/apache24/data/alfa_scorpi/protected/commands/GetdataprospectCommand.php (31)
+in /usr/local/www/apache24/data/alfa_scorpi/getdataprospect.php (14)
