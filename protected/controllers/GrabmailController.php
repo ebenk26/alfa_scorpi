@@ -257,7 +257,7 @@ class GrabmailController extends Controller
 													
 													
 													
-													$_model->case_id = date('ymd')."-".$count_id;
+													$_model->id = date('ymd')."-".$count_id;
 													if($_model->save())
 													{
 														

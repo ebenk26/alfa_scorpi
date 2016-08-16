@@ -1,6 +1,6 @@
 <?php
-$getdataprospectid = intval($_GET["id"]);// echo $id;
-$prospect_id = intval($_GET["id"]);// echo $id;
+$getdataprospectid = $_GET["id"];// echo $id;
+$prospect_id = $_GET["id"];// echo $id;
 $user_id = Yii::app()->session['userid'];// echo $id;
 $prospect = Prospect::model()->findByPk($getdataprospectid);
 $region = Region::model()->findByPk($prospect->region_id);

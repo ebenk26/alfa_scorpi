@@ -18,7 +18,7 @@ class CheckpointCommand extends CConsoleCommand
 		if ($row) {
 			$criteria = new CDbCriteria;
 			$criteria->condition = 'leasing_id = '.$row['id'].'';
-			$criteria->condition = 'prospect_id = '.$row['prospect_id'].'';
+			$criteria->condition = 'prospect_id = "'.$row['prospect_id'].'"';
 			$_modelsendmail = SendMail::model()->find($criteria);
 			$pointfirst = $row['token'];
 			$pointlast = $_modelsendmail->bidding_token;

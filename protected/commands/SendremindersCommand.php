@@ -160,9 +160,9 @@ class SendremindersCommand extends CConsoleCommand
 								$mail2->isHTML(true);                                  // Set email format to HTML
 
 								if(!empty($_modelpros->last_case_id)){
-									$mail2->Subject = 'Bidding Program '.date('m').'-'.$prospect_id.' (RE:'.$_modelpros->last_case_id.')';
+									$mail2->Subject = 'Bidding Program '.$prospect_id.' (RE:'.$_modelpros->last_case_id.')';
 								}else{
-									$mail2->Subject = 'Bidding Program '.date('m').'-'.$prospect_id;
+									$mail2->Subject = 'Bidding Program '.$prospect_id;
 								}
 								$mail2->Body    = $_model->message;
 								$mail2->AltBody = 'This is the body in plain text for non-HTML mail clients';

@@ -5043,3 +5043,75 @@ REQUEST_URI=/alfa_scorpi/index.php/viewprospect/viewDataprospect?id=160815-00001
 in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/views/viewprospect/_view_dataprospect.php (4)
 in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/actions/ViewAction.php (138)
 in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php (13)
+2016/08/15 14:57:57 [error] [php] Trying to get property of non-object (/Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/controllers/CheckpointController.php:24)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CheckpointController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CheckpointController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CheckpointController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php(13): CWebApplication->run()
+REQUEST_URI=/alfa_scorpi/index.php/checkpoint
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/controllers/CheckpointController.php (24)
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php (13)
+2016/08/15 16:40:46 [error] [php] Uninitialized string offset: 0 (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CHttpRequest.php:478)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#1 /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php(13): CWebApplication->run()
+REQUEST_URI=/alfa_scorpi/index.php
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php (13)
+2016/08/15 16:41:03 [error] [php] Uninitialized string offset: 0 (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CHttpRequest.php:478)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#1 /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php(13): CWebApplication->run()
+REQUEST_URI=/alfa_scorpi/index.php
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php (13)
+2016/08/15 16:41:31 [error] [php] Trying to get property of non-object (/Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/views/databidding/_view_comment.php:6)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): DatabiddingController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/actions/ViewAction.php(138): DatabiddingController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): ViewAction->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): ViewAction->runWithParams()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): DatabiddingController->runAction()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): DatabiddingController->runActionWithFilters()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): DatabiddingController->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php(13): CWebApplication->run()
+REQUEST_URI=/alfa_scorpi/index.php/databidding/viewComment?id=160815-00005
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/views/databidding/_view_comment.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/actions/ViewAction.php (138)
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php (13)
+2016/08/15 16:42:17 [error] [php] Creating default object from empty value (/Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/controllers/CommentController.php:17)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CommentController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CommentController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php(13): CWebApplication->run()
+REQUEST_URI=/alfa_scorpi/index.php/comment/?comment=sfdsfdsfdsf&id=160815&user_id=2
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/controllers/CommentController.php (17)
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php (13)
+2016/08/15 16:42:58 [error] [php] Uninitialized string offset: 0 (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CHttpRequest.php:478)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#1 /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php(13): CWebApplication->run()
+REQUEST_URI=/alfa_scorpi/index.php
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php (13)
+2016/08/15 16:43:19 [error] [php] Trying to get property of non-object (/Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/views/databidding/_view_databidding.php:33)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): DatabiddingController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/actions/ViewAction.php(138): DatabiddingController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): ViewAction->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): ViewAction->runWithParams()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): DatabiddingController->runAction()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): DatabiddingController->runActionWithFilters()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): DatabiddingController->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php(13): CWebApplication->run()
+REQUEST_URI=/alfa_scorpi/index.php/databidding/viewDatabidding?id=160815-00005
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/views/databidding/_view_databidding.php (33)
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/protected/actions/ViewAction.php (138)
+in /Applications/XAMPP/xamppfiles/htdocs/alfa_scorpi/index.php (13)

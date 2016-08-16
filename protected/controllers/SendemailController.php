@@ -73,10 +73,10 @@ class SendemailController extends Controller
 
 							if(!empty($_modelpros->last_case_id)){
 								// $mail->Subject = 'Bidding Program '.date('m').'-'.$prospect_id.' (RE:'.$_modelpros->last_case_id.')';
-								$mail->Subject = 'Bidding Program '.$_modelpros->case_id.' (RE:'.$_modelpros->last_case_id.')';
+								$mail->Subject = 'Bidding Program '.$_modelpros->id.' (RE:'.$_modelpros->last_case_id.')';
 							}else{
 								// $mail->Subject = 'Bidding Program '.date('m').'-'.$prospect_id;
-								$mail->Subject = 'Bidding Program '.$_modelpros->case_id;
+								$mail->Subject = 'Bidding Program '.$_modelpros->id;
 							}
 							$mail->Body    = $message;
 							$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';

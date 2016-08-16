@@ -382,12 +382,12 @@ class GetwinnerController extends Controller
 				$_model->created_at = new CDbExpression('NOW()');
 				$_model->updated_at = new CDbExpression('NOW()');
 				// $_model->save();
-				print_r($_model);
-				if ($_model->save(false)) {
-					echo "save";
-				}else{
-					echo "tidak save";
-				}
+				// print_r($_model);
+				// if ($_model->save(false)) {
+				// 	echo "save";
+				// }else{
+				// 	echo "tidak save";
+				// }
 			}
 		}
 	}

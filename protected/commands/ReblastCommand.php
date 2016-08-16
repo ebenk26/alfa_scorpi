@@ -60,17 +60,51 @@ class ReblastCommand extends CConsoleCommand
 			$model->created_by = $row['created_by'];
 			$model->created_at = new CDbExpression('NOW()');
 			$model->time_survey_new = $row['time_survey_new'];
-			$model->last_case_id = substr($row["created_at"], 5, 2).'-'.$row['case_id'];
+			// $model->last_case_id = substr($row["created_at"], 5, 2).'-'.$row['case_id'];
+			$model->last_case_id = $row['id'];
 			$model->nama_salesman = $row['nama_salesman'];
 			$model->has_last_caseid = 1;
 			if(empty($row['leasing_id_minus'])){
 				$model->leasing_id_minus = $row['leasing_id'];
-				$model->case_id_reblast = substr($row["created_at"], 5, 2).'-'.$row['case_id'];
+				// $model->case_id_reblast = substr($row["created_at"], 5, 2).'-'.$row['case_id'];
+				$model->case_id_reblast = $row['id'];
 			}else{
 				$model->leasing_id_minus = $row['leasing_id_minus'].','.$row['leasing_id'];
-				$model->case_id_reblast = substr($row["created_at"], 5, 2).'-'.$row['case_id'].','.$row['case_id_reblast'];
+				// $model->case_id_reblast = substr($row["created_at"], 5, 2).'-'.$row['case_id'].','.$row['case_id_reblast'];
+				$model->case_id_reblast = $row['id'].','.$row['case_id_reblast'];
+			}
+			/////
+			$criteria_pros = new CDbCriteria();
+			$criteria_pros->condition  = "month(created_at) = month(now())";
+			// $criteria_pros->condition  = "month('2016-09-11 11:37:55') = month('2016-09-11 11:37:55') and id <> ".$_model->id;
+			$criteria_pros->order = "created_at DESC";
+			$prospect_last_caseid = Prospect::model()->find($criteria_pros);
+			if ($prospect_last_caseid) {
+			echo "<br>".$prospect_last_caseid->id."<br>";
+			// print_r($prospect_last_caseid);
+			echo "if1";
+			$expl = explode("-", $prospect_last_caseid->id);
+
+			$count_id = $expl[1]+1;
+			$strlen = strlen($count_id);
+			if ($strlen == 1) {
+			$count_id = '0000'.$count_id;
+			}else if ($strlen == 2) {
+			$count_id = '000'.$count_id;
+			}else if ($strlen == 3) {
+			$count_id = '00'.$count_id;
+			}else if ($strlen == 4) {
+			$count_id = '0'.$count_id;
+			}else if ($strlen == 5) {
+			$count_id = $count_id;
+			}
+			}else{
+			$count_id = 1;
+			$count_id = '0000'.$count_id;
 			}
 
+			$model->id = date('ymd')."-".$count_id;
+			/////
 			if($model->save()){
 				echo 'success create re-prospect';
 				$winner->reblast_status = 1;

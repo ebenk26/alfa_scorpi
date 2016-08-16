@@ -1,5 +1,5 @@
 <?php
-$getdataprospectid = intval($_GET["id"]);// echo $id;
+$getdataprospectid = $_GET["id"];// echo $id;
 $connection=Yii::app()->db;
 		$command2= $connection->createCommand("
 				select b.leasing_name as leasing_terlibat,c.name as region,a.bidding_token,a.bidding_token_time 
